@@ -7,6 +7,7 @@ import {
   h1TitleClass,
   pClass,
 } from "@/src/utils/tailwind-classes";
+import Link from "next/link";
 
 const AboutPage: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -20,11 +21,14 @@ const AboutPage: React.FC = () => {
     <>
       <div className="flex justify-center items-center min-h-screen">
         <div className="bg-gray-200 p-4 mx-16 space-y-4">
+          <Link href="/">
+            Back to <strong>Home</strong>
+          </Link>
           <div className="block h-12 rounded-lg">
             <h1 className={h1TitleClass}>Combobox Feature</h1>
             <p>
               This is a Combobox in{" "}
-              <span className={pClass}>NextJS-13 with Typescript</span>
+              <span className="text-sky-700">NextJS-13 with Typescript</span>
             </p>
           </div>
           <div className="block h-12 bg-white rounded-lg content-center">
