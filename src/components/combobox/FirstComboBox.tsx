@@ -1,5 +1,6 @@
+"use client";
+
 import React, { ChangeEvent } from "react";
-// import FirstComboBox from "@components/combobox";
 
 interface FirstComboBoxProps {
   onOptionChange: (selected: string | null) => void;
