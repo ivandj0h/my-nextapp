@@ -42,6 +42,11 @@ $ npm run dev
 $ yarn dev
 ```
 
+## Screenshots
+
+![Home](/public/assets/home.png)  
+![ComboBox](/public/assets/combo-box.png)
+
 ## Authors
 
 [ivandjoh](https://linkedin.com/in/ivandjoh)  

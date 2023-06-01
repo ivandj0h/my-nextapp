@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 const HomePage = () => {
-  const myName = "John Doe";
+  const myName = "Combo Box";
 
   return (
     <>
