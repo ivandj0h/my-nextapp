@@ -6,6 +6,8 @@ import FirstComboBox from "@/src/components/combobox/FirstComboBox";
 const AboutPage: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const handleSelectChange = (selected: string | null) => {
+    console.log("selected", selected);
+
     setSelectedOption(selected);
   };
 
