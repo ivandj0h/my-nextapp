@@ -21,17 +21,10 @@ const FirstComboBoxContainer: React.FC<FirstComboBoxProps> = ({
   return (
     <div className={containerClass}>
       <div className="block h-12 rounded-lg">
-        <h1 className={h1TitleClass}>Combobox Feature</h1>
-        <p>
-          This is a Combobox in{" "}
-          <span className={pClass}>NextJS-13 with Typescript</span>
-        </p>
-      </div>
-      <div className="block h-12 rounded-lg">
         <select onChange={handleSelectChange}>
-          <option value="1">Satu</option>
-          <option value="2">Dua</option>
-          <option value="3">Tiga</option>
+          <option value="pertama">Option Pertama</option>
+          <option value="kedua">Option Kedua</option>
+          <option value="ketiga">Option Ketiga</option>
         </select>
       </div>
     </div>
